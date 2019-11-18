@@ -24,7 +24,7 @@ namespace TestSergeyGoncharov
         [Test]
         public void DraftCreateAndUpdate1()
         {
-            var dtaftTextBeforUpdate = $"Draft text befor update {DateTime.Now.ToString()}";
+            var dtaftTextBeforUpdate = $"Draft text befor update test {DateTime.Now.ToString()}";
             var dtaftTextAfterUpdate = $"Draft text AFTER UPDATE {DateTime.Now.ToString()}";
         }
         [Test]
